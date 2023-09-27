@@ -1,7 +1,7 @@
 {
   "name": "frasydi-ui",
   "version": "1.3.6",
-  "main": "lib\\commonjs\\index.js",
+  "main": "lib/commonjs/index.js",
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
@@ -85,7 +85,7 @@
     "url": "https://github.com/Frasydi/frasydi-native-ui/issues"
   },
   "homepage": "https://github.com/Frasydi/frasydi-native-ui#readme",
-  "react-native": "src\\index.ts",
-  "module": "lib\\module\\index.js",
-  "types": "lib\\typescript\\src\\index.d.ts"
+  "react-native": "src/index.ts",
+  "module": "lib/module/index.js",
+  "types": "lib/typescript/src/index.d.ts"
 }
