@@ -1,25 +1,25 @@
 import React, { createContext, useState } from "react";
-import { ContextType } from "./Theme.types";
+import { ContextType, Props } from "./Theme.types";
 
 export const ThemeContext = createContext<ContextType>({
     colors: {
         primary: "#477ADB",
-        secondary: "#477ADB",
+        secondary: "yellow",
         disabled: "#96A1B7"
 
     }
 })
 
-export default function({ children, theme }: { children: React.ReactNode, theme : ContextType }) {
+export default function({ children, theme }: Props ) {
     
 
     return (
         <ThemeContext.Provider value={{
             colors: {
                 primary: "#477ADB",
-                secondary: "#477ADB",
+                secondary: "yellow",
                 disabled: "#96A1B7",
-                ...theme.colors
+                ...theme?.colors
             },
         }}>
             {children}

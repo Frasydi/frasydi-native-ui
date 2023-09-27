@@ -1,11 +1,12 @@
-import {  StyleProp, TextStyle, ViewStyle, TouchableOpacityProps, DimensionValue } from "react-native"
+import {  StyleProp, TextStyle, ViewStyle, TouchableOpacityProps } from "react-native"
 
 type props = {
-    label: string,
-    width?: DimensionValue,
+    width?: string | number,
     containerStyle?: StyleProp<ViewStyle>,
     textStyle? : StyleProp<TextStyle>,
     loading? : boolean,
+    text? : string,
+    icon? : React.ReactNode
 } & TouchableOpacityProps
 
 export default props

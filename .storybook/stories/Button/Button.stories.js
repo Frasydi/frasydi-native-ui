@@ -12,7 +12,8 @@ const MyButtonMeta = {
   args: {
     text: 'Hello world',
     label :"Hello World",
-    width :"70%"
+    width :"70%",
+    loading : true
   },
   decorators: [
     (Story) => (
@@ -27,8 +28,4 @@ export default MyButtonMeta;
 
 export const Basic = {};
 
-export const AnotherExample = {
-  args: {
-    text: 'Another example',
-  },
-};
+

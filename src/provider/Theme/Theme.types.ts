@@ -6,3 +6,4 @@ export type ContextType = {
     }
 }
 
+export type Props = { children: React.ReactNode, theme? : ContextType }

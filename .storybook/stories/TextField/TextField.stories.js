@@ -11,7 +11,9 @@ const TextInput = {
   args: {
     text: 'Hello world',
     label :"Hello World",
-    width :"70%"
+    width :"70%",
+    error : false,
+    password : false
   },
   decorators: [
     (Story) => (

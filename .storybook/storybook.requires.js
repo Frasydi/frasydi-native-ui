@@ -49,6 +49,7 @@ const getStories = () => {
   return {
     './.storybook/stories/Button/Button.stories.js': require('./stories/Button/Button.stories.js'),
     './.storybook/stories/TextField/TextField.stories.js': require('./stories/TextField/TextField.stories.js'),
+    './.storybook/stories/Alert/Alert.stories.js': require('./stories/Alert/Alert.stories.js'),
   };
 };
 
